@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- Trees -->
- <project path="device/10or/G" name="RahulPalXDA/android_device_10or_G.git" remote="github" revision="lineage-18.1" />
- <project path="device/10or/msm8953-common" name="RahulPalXDA/android_device_10or_msm8953-common.git" remote="github" revision="lineage-18.1" />
- <project path="vendor/10or" name="RahulPalXDA/android_vendor_10or.git" remote="github" revision="master" />
- <project path="kernel/10or/G" name="10orDevs/android_kernel_10or_G-4.9.git" remote="github" revision="lineage-18.1" />
- 
+<!-- Remotes -->
+
+   <remote name="raidenkkj" fetch="https://github.com/raidenkkj" />
+
+<!-- Device Tree -->
+
+   <project path="device/asus/A001D" name="android_device_asus_A001D" remote="raidenkkj" revision="eleven" />
+   <project path="vendor/asus/A001D" name="vendor_asus_A001D" remote="raidenkkj" revision="11" />
+   <project path="kernel/asus/A001D" name="kernel_asus_A001D" remote="raidenkkj" revision="11" />
+
 </manifest>
+
