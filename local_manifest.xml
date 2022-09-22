@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+ <!-- Remotes -->
+
+   <remote name="leudeukapakapa" fetch="https://github.com/CreeperAmigo19" />
+
  <!-- Trees -->
  <project path="device/asus/A001D" name="GuilianoS/android_device_asus_A001D.git" remote="github" revision="lineage-18.1" />
  <project path="vendor/asus/A001D" name="GuilianoS/vendor_asus_A001D.git" remote="github" revision="lineage-18.1" />
