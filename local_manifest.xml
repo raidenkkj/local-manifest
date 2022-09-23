@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <!-- Remotes -->
- <!-- Trees -->
- <project path="device/asus/A001D" name="GuilianoS/android_device_asus_A001D.git" remote="github" revision="lineage-18.1" />
- <project path="vendor/asus/A001D" name="GuilianoS/vendor_asus_A001D.git" remote="github" revision="lineage-18.1" />
- <project path="kernel/asus/A001D" name="GuilianoS/kernel_asus_A001D.git" remote="github" revision="11" />
+
+<!-- Remotes -->
+
+   <remote name="raidenkkj" fetch="https://github.com/raidenkkj" />
+
+<!-- Device Tree -->
+
+   <project path="device/asus/A001D" name="android_device_asus_A001D" remote="raidenkkj" revision="eleven" />
+   <project path="vendor/asus/A001D" name="vendor_asus_A001D" remote="raidenkkj" revision="11" />
+   <project path="kernel/asus/A001D" name="kernel_asus_A001D" remote="raidenkkj" revision="11" />
+
 </manifest>
