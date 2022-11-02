@@ -3,13 +3,13 @@
 
 <!-- Remotes -->
 
-   <remote name="raidenkkj" fetch="https://github.com/raidenkkj" />
+   <remote name="raiden" fetch="https://github.com/raidenkkj" />
    <remote name="gui" fetch="https://github.com/GuilianoS" />
    <remote name="lineage" fetch="https://github.com/LineageOS" />
 
  <!-- Trees -->
 
-   <project path="device/asus/A001D" name="android_device_asus_A001D" remote="gui" revision="lineage-18.1" />
+   <project path="device/asus/A001D" name="android_device_asus_A001D" remote="raiden" revision="a11/rom/carbon" />
    <project path="vendor/asus/A001D" name="vendor_asus_A001D" remote="gui" revision="lineage-18.1" />
    <project path="kernel/asus/A001D" name="kernel_asus_A001D" remote="gui" revision="11" />
  
